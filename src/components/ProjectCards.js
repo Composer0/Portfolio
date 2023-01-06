@@ -1,0 +1,38 @@
+import React from "react";
+
+
+function PROJECTCARD(props) {
+    return( 
+        <div key={props.key} className="card" >
+            <div className="card-header animated-bg" id="header">
+                <a href={props.sLink} rel="noopener noreferrer" target="_blank">
+                    <img src={props.image} alt={props.alt} />
+                </a>    
+            </div>
+            <div className="card-content">
+                <h3 className="card-title animated-bg animated-bg-text" id="title">{props.title}</h3>
+                    <div className="project-info ">
+                        <a className="footer-link" href={props.gLink} rel="noopener noreferrer" target="_blank"><i className="fab fa-github"></i></a>
+                        <a className="footer-link" href={props.yLink} target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube"></i></a>
+                        <a className="footer-link" href={props.sLink} target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                        <hr />
+                    <p className="card-excerpt" >
+                    <div className="techInfo">
+                        {props.tech}
+
+                    </div>
+                        <br/>
+                        <br/>
+                        <div className="infoDescription">
+                            {props.info}
+                        </div>
+                        <button className="moreInfoButton"><a className="moreInfoButtonLink" href={props.gLink} rel="noopener noreferrer" target="_blank">More Info</a></button>
+                        <br/>
+                    </p>
+                </div>
+            </div>
+    );
+}
+
+export default PROJECTCARD;
