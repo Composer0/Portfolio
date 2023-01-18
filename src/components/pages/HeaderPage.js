@@ -18,7 +18,7 @@ export default function Header() {
                 <div className="profile">
                     <div className="nameInfo">
                         <h1>Orion Palmer</h1>
-                        <h2 className="pro">Fullstack Developer</h2>
+                        <h2 className="pro">Full Stack Developer</h2>
                     <div>
                 </div>
             </div>

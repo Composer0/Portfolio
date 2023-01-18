@@ -30,6 +30,12 @@ const Skills = [
         alt: "HTML"
     },
     {
+        key: 23, 
+        img: require("../../assets/img/wordpress.png"),
+        dataHover: "WordPress",
+        alt: "WordPress"
+    },
+    {
         key: 6, 
         img: require("../../assets/img/jquery.webp"),
         dataHover: "jQuery",
@@ -138,7 +144,7 @@ const Skills = [
         alt: "Visual Studio Code"
     },
     {
-        key: 23, 
+        key: 24, 
         img: require("../../assets/img/acc.webp"),
         dataHover: "Adobe Creative Suite",
         alt: "Adobe Creative Suite"

@@ -4,11 +4,11 @@ const ProjectObjects = [
         image: require("../../assets/img/CSharpLoanCalculator.webp"),
         title: "C# Challenges",
         alt: "C# Challenges",
-        sLink: "https://orionpalmer-csharp-dsa.azurewebsites.net/",
+        sLink: "https://csharpstarterapps-production.up.railway.app/",
         gLink: "https://github.com/Composer0/CSharp.NetAndMVC",
         yLink: "https://www.youtube.com/@composer0623/videos",
         tech: "HTML | CSS | BootStrap | C# | ASP.NET | Azure",
-        info: "Used the MVC design model and applied it to my writing in C#. These projects primarily operate using 'For' loops to filter through the data to check and modify the values. Within this applciation is Palindrome Checker, FizzBuzz Finder, and my Loan Calculator. Web app was published on the Azure hosting service."
+        info: "Used the MVC design model and applied it to my writing in C#. These projects primarily operate using 'For' loops to filter through the data to check and modify the values. Within this applciation is Palindrome Checker, FizzBuzz Finder, and my Loan Calculator. Web app was originally published on the Azure hosting service."
     },
     {
         key: 2,
@@ -76,17 +76,17 @@ const ProjectObjects = [
         tech: "JavaScript | CSS | HTML",
         info: "Password Generator that features the toggleable use of lowercase, uppercase, numbers, and symbols to create a scalable password up to 20 characters long."
     },
-    // {
-    //     key: 6,
-    //     image: require("../../assets/img/movieapp.webp"),
-    //     title: "Movie Search",
-    //     alt: "Movie Search",
-    //     sLink: "https://www.orionpalmer.com/projects/MovieApp/index.html",
-    //     gLink: "https://github.com/Composer0/Movie-App",
-    //     yLink: "https://www.youtube.com/watch?v=STa79bHfTTM",
-    //     tech: "JavaScript | API | CSS | HTML",
-    //     info: "Uses external api to generate a list of the current top movies along with their descriptions. Also includes a search feature."
-    // },
+    {
+        key: 6,
+        image: require("../../assets/img/movieapp.webp"),
+        title: "Movie Search",
+        alt: "Movie Search",
+        sLink: "https://www.orionpalmer.com/projects/MovieApp/index.html",
+        gLink: "https://github.com/Composer0/Movie-App",
+        yLink: "https://www.youtube.com/watch?v=STa79bHfTTM",
+        tech: "JavaScript | API | CSS | HTML",
+        info: "Uses external api to generate a list of the current top movies along with their descriptions. Also includes a search feature."
+    },
     {
         key: 7,
         image: require("../../assets/img/photography-website.webp"),

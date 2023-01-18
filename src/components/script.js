@@ -130,10 +130,10 @@ function Events() {
         // function sendEmail(nameInput, email, body) {
         //     Email.send({
         //         Host: 'smpt.gmail.com',
-        //         Username: 'opalmer1989@gmail.com',
+        //         Username: 'palmerorione@gmail.com',
         //         Password: "DE5FDC6C84B8BB06C0AED112C6B7178508BB",
-        //         To: 'opalmer1989@gmail.com',
-        //         From: 'opalmer1989@gmail.com',
+        //         To: 'palmerorione@gmail.com',
+        //         From: 'palmerorione@gmail.com',
         //         Subject: `${nameInput} sent you a body`,
         //         Body: `${nameInput} <br> Email: ${email} <br> Body: ${body}`
         // }).then(
@@ -141,7 +141,7 @@ function Events() {
         //     )}
 
         // $.ajax({
-        //     url: "https://formsubmit.co/ajax/opalmer1989@gmail.com",
+        //     url: "https://formsubmit.co/ajax/palmerorione@gmail.com",
         //     method: "POST",
         //     data: {
         //         name: "FormSubmit",

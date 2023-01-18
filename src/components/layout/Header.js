@@ -17,7 +17,7 @@ export default function Header() {
                     <div>
                         <img className="profile-img" width="200px" src={profileIMG} alt="Orion"/>
                     </div>
-                    <h2><span className="pro">Fullstack Developer</span></h2>
+                    <h2><span className="pro">Full-Stack Developer</span></h2>
                 </div>
                 <br/>
                 <hr/>

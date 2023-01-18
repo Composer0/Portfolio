@@ -23,7 +23,7 @@ function MiddleSection(props) {
                 <br/>    
                 <br/>
                 Since beginning my journey into software development I have learned and found ways to implement a variety of technologies and version control including, but not limited to: <br/> <br/>
-                Javascript, C#, .Net, React, HTML, CSS, Bootstrap, Tailwind, Sass, API, Node, Express, MongoDB, Git, Postman, Railway, Azure, and more.
+                Javascript, C#, .Net, React, HTML, CSS, WordPress, Bootstrap, Tailwind, Sass, API, Node, Express, MongoDB, Git, Postman, Railway, Azure, and more.
                 <br/><br/>
                 I love the idea that with technology, my potential to impact others is simply greater and I want to use my knowledge to craft intuitive products that will aid people with their needs.
                 </p>
