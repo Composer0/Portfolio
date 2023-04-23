@@ -64,7 +64,7 @@ const SideBar = ({isOpen, toggle}) => {
                     <br/>
                     <br/>
                     <SideBarLinkResume>
-                    <a href={"https://drive.google.com/file/d/1KENaChAitbCTfbzwhLZtelaHEIWmcd6N/view?usp=sharing"} className="resume-setting" rel="noopener noreferrer" target="_blank" onClick={toggle}>Resume</a>
+                    <a href={"https://drive.google.com/file/d/17zBhyzKtbdZlYbqxVewo47vmBwLgF0FN/view?usp=share_link"} className="resume-setting" rel="noopener noreferrer" target="_blank" onClick={toggle}>Resume</a>
                     </SideBarLinkResume>
                 </SideBarMenu>
                 <SideBarWrapper>
