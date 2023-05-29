@@ -92,7 +92,11 @@ const Navbar = ({toggle}) => {
                         </NavItem>
                     </NavMenu>
                         <NavItem>
-                            <NavResume ><a href={"https://drive.google.com/file/d/17zBhyzKtbdZlYbqxVewo47vmBwLgF0FN/view?usp=share_link"} className="resume-setting" rel="noopener noreferrer" target="_blank">Resume</a></NavResume>
+                            <a href={"https://drive.google.com/file/d/1KENaChAitbCTfbzwhLZtelaHEIWmcd6N/view?usp=share_link"} className="resume-setting" rel="noopener noreferrer" target="_blank">
+                            <NavResume >
+                            Resume
+                            </NavResume>
+                            </a>
                         </NavItem>
                 </NavbarContainer>
             </Nav>

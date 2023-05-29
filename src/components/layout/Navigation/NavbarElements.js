@@ -129,6 +129,7 @@ export const NavResume = styled.li`
     text-decoration: none;
     transition: 0.3s;
     color: #fff;
+    text-decoration: none;
     }
     
     &:active {

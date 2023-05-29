@@ -1,21 +1,39 @@
 const Skills = [
     {
-        key: 1, 
-        img: require("../../assets/img/react1.webp"),
-        dataHover: "React",
-        alt: "React"
-    },
-    {
         key: 2, 
         img: require("../../assets/img/javascript.webp"),
         dataHover: "JavaScript",
         alt: "JavaScript"
     },
     {
+        key: 1, 
+        img: require("../../assets/img/vue.png"),
+        dataHover: "Vue",
+        alt: "Vue"
+    },
+    {
+        key: 1, 
+        img: require("../../assets/img/react1.webp"),
+        dataHover: "React",
+        alt: "React"
+    },
+    {
+        key: 6, 
+        img: require("../../assets/img/jquery.webp"),
+        dataHover: "jQuery",
+        alt: "jQuery"
+    },
+    {
         key: 3, 
         img: require("../../assets/img/csharp.webp"),
         dataHover: "C#",
         alt: "C#"
+    },
+    {
+        key: 3, 
+        img: require("../../assets/img/php.png"),
+        dataHover: "PHP",
+        alt: "PHP"
     },
     {
         key: 5, 
@@ -30,16 +48,10 @@ const Skills = [
         alt: "HTML"
     },
     {
-        key: 23, 
-        img: require("../../assets/img/wordpress.png"),
-        dataHover: "WordPress",
-        alt: "WordPress"
-    },
-    {
         key: 6, 
-        img: require("../../assets/img/jquery.webp"),
-        dataHover: "jQuery",
-        alt: "jQuery"
+        img: require("../../assets/img/mjml.png"),
+        dataHover: "MJML",
+        alt: "MJML"
     },
     {
         key: 6, 
@@ -58,6 +70,12 @@ const Skills = [
         img: require("../../assets/img/sass1 (1).webp"),
         dataHover: "Sass",
         alt: "Sass"
+    },
+    {
+        key: 8, 
+        img: require("../../assets/img/less.png"),
+        dataHover: "Less",
+        alt: "Less"
     },
     {
         key: 9, 
@@ -124,6 +142,12 @@ const Skills = [
         img: require("../../assets/img/githubDark.png"),
         dataHover: "GitHub",
         alt: "GitHUB"
+    },
+    {
+        key: 23, 
+        img: require("../../assets/img/wordpress.png"),
+        dataHover: "WordPress",
+        alt: "WordPress"
     },
     {
         key: 20, 
