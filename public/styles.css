@@ -456,6 +456,7 @@ p {
 
 .education-description {
     margin: 0 25% 0 25%;
+    height: 100%;
 }
 
 .skill-row { 
