@@ -1,6 +1,17 @@
 const ProjectObjects = [
     {
         key: 1,
+        image: require("../../assets/img/quiz-app-vue.webp"),
+        title: "FERPA Quiz",
+        alt: "FERPA Quiz",
+        sLink: "https://ferpa-quiz-vue.netlify.app/",
+        gLink: "https://github.com/Composer0/Vue-Questions-App",
+        yLink: "https://youtu.be/tNcXJoBVfSo",
+        tech: "Vue | CSS",
+        info: "This application uses Vue's components and prop method to render a series of questions and a result based on the amount of correct answers selected."
+    },
+    {
+        key: 1,
         image: require("../../assets/img/CSharpLoanCalculator.webp"),
         title: "C# Challenges",
         alt: "C# Challenges",
@@ -8,7 +19,7 @@ const ProjectObjects = [
         gLink: "https://github.com/Composer0/CSharp.NetAndMVC",
         yLink: "https://www.youtube.com/@composer0623/videos",
         tech: "HTML | CSS | BootStrap | C# | ASP.NET | Azure",
-        info: "Used the MVC design model and applied it to my writing in C#. These projects primarily operate using 'For' loops to filter through the data to check and modify the values. Within this applciation is Palindrome Checker, FizzBuzz Finder, and my Loan Calculator. Web app was originally published on the Azure hosting service."
+        info: "Used the MVC design model and applied it to my writing in C#. These projects primarily operate using 'For' loops to filter through the data to check and modify the values. Within this applciation is Palindrome Checker, FizzBuzz Finder, and my Loan Calculator."
     },
     {
         key: 2,

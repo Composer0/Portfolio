@@ -35,9 +35,9 @@ function MiddleSection(props) {
                 <br/><br/>
                 What excites me the most about technology is its immense potential to impact people's lives in meaningful ways. I am driven by the opportunity to utilize my knowledge and skills to craft intuitive and user-friendly products that address real-world needs. It is my goal to create solutions that not only meet user requirements but also enhance their overall experience.
                 <br/><br/>
-                I thrive in dynamic environments where I can collaborate with talented individuals to push the boundaries of what is possible. I am constantly seeking new challenges and strive to stay up-to-date with the latest industry trends and best practices.
+                {/* I thrive in dynamic environments where I can collaborate with talented individuals to push the boundaries of what is possible. I am constantly seeking new challenges and strive to stay up-to-date with the latest industry trends and best practices.
                 <br/><br/>
-                I am excited to contribute my expertise and make a positive impact in the field of software development by leveraging technology to create innovative solutions that truly benefit others.
+                I am excited to contribute my expertise and make a positive impact in the field of software development by leveraging technology to create innovative solutions that truly benefit others. */}
                 </p>
             </div>
             
