@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 // import Events from "script";
 // import Header from "./layout/Header";
 import { Navbar, SlideBar } from "./layout/Navigation/Navigation";
@@ -13,29 +13,37 @@ import HeaderPage from "./pages/HeaderPage";
 // import AboutPage from "./pages/AboutPage";
 // import TechPage from "./pages/TechPage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import LoadingScreen from "./LoadingScreen"; // Import the LoadingScreen component
+import profileIMG from "../assets/img/orionpalmer.webp";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
+  const [imagesLoaded, setImagesLoaded] = useState(false); // Add state for tracking image loading
 
   const toggle = () => {
     setIsOpen(!isOpen);
-    // exclamation point is important to set up the toggle action.
   };
+
+  useEffect(() => {
+    // Simulate loading images
+    const fakeImage = new Image();
+    fakeImage.src = profileIMG;
+    fakeImage.onload = () => {
+      setImagesLoaded(true);
+    };
+  }, []);
 
   return (
     <Router>
       <div className="backgroundColor">
+        {/** Render the LoadingScreen component if images are not loaded */}
+        {!imagesLoaded && <LoadingScreen />}
         <SlideBar isOpen={isOpen} toggle={toggle} />
         <Navbar toggle={toggle} />
         <Routes>
-          <Route exact path="/" element=<HeaderPage /> />
-          {/* <Route exact path="/contact" element=<ContactPage /> /> */}
-          {/* <Route exact path="/projects" element=<ProjectsPage /> /> */}
-          {/* <Route exact path="/about" element=<AboutPage /> /> */}
-          {/* <Route exact path="/tech" element=<TechPage /> /> */}
+          <Route exact path="/" element={<HeaderPage />} />
         </Routes>
         <div className="wrapper">
-          <div>{/* <Header /> */}</div>
           <div>
             <Showcase />
             <Projects />
