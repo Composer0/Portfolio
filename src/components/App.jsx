@@ -29,7 +29,13 @@ function App() {
     const fakeImage = new Image();
     fakeImage.src = profileIMG;
     fakeImage.onload = () => {
-      setImagesLoaded(true);
+      // Wait for both image and fonts to be loaded
+      Promise.all([
+        document.fonts.ready,
+        new Promise((resolve) => setTimeout(resolve, 2000)), // Wait for 2 seconds
+      ]).then(() => {
+        setImagesLoaded(true);
+      });
     };
   }, []);
 
