@@ -1,7 +1,37 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+
+
 # dependencies
 /node_modules
+/build.zip
+/build (2).zip
+/build (3).zip
+/build (4).zip
+/build (5).zip
+/build (6).zip
+/build (7).zip
+/build (8).zip
+/build (9).zip
+/build (10).zip
+/build (11).zip
+/build (12).zip
+/build (13).zip
+/build (14).zip
+/build (15).zip
+/build (16).zip
+/build (17).zip
+/build (18).zip
+/build (19).zip
+/build (20).zip
+/build (21).zip
+/build (22).zip
+/build (23).zip
+/build (24).zip
+/build (25).zip
+/build (26).zip
+/build (27).zip
+/build (28).zip
 /.pnp
 .pnp.js
 
