@@ -10,12 +10,12 @@ function BackgroundVideo() {
         autoPlay
         loop
         muted
-        playsinline
-        webkit-playsinline
+        playsInline
+        webkit-playsinline="true"
         src={OceanWater}
       />
       <div>
-        <img class="full-bg-img " src={BackgroundIMG} alt="bg-img" />
+        <img className="full-bg-img " src={BackgroundIMG} alt="bg-img" />
       </div>
     </div>
   );

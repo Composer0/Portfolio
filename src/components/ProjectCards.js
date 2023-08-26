@@ -49,7 +49,7 @@ function PROJECTCARD(props) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            <i className="fa-solid fa-arrow-up-right-from-square"></i>
           </a>
         </div>
       </div>

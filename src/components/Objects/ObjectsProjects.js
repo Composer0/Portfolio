@@ -11,7 +11,7 @@ const ProjectObjects = [
     info: "This application uses Vue's components and prop method to render a series of questions and a result based on the amount of correct answers selected.",
   },
   {
-    key: 1,
+    key: 2,
     image: require("../../assets/img/CSharpLoanCalculator.webp"),
     title: "C# Challenges",
     alt: "C# Challenges",
@@ -22,7 +22,7 @@ const ProjectObjects = [
     info: "Used the MVC design model and applied it to my writing in C#. These projects primarily operate using 'For' loops to filter through the data to check and modify the values. Within this applciation is Palindrome Checker, FizzBuzz Finder, and my Loan Calculator.",
   },
   {
-    key: 2,
+    key: 3,
     image: require("../../assets/img/tailwindLandingPage.webp"),
     title: "Manage Landing Page",
     alt: "Tailwind Landing Page",
@@ -44,7 +44,7 @@ const ProjectObjects = [
   //     info: "This application features the RESTful API known as PokeAPI to gather Pokemon data by using async/await className methods upon clicking one of the regional search selectors."
   // },
   {
-    key: 2,
+    key: 4,
     image: require("../../assets/img/Keeper-App.webp"),
     title: "Keeper App",
     alt: "Keeper App",
@@ -66,7 +66,7 @@ const ProjectObjects = [
   //     info: "Build using React components and CSS. Navigation features the use of React Stylized Components. React-Scroll is used to create a smooth scroll effect. Maps and props are used to render project cards."
   // },
   {
-    key: 4,
+    key: 5,
     image: require("../../assets/img/simon.webp"),
     title: "Simon Says App",
     alt: "Simon Says App",
@@ -78,7 +78,7 @@ const ProjectObjects = [
     info: "Simon Says Game that builds incremental sequenced events while providing user with visual and audio feedback.",
   },
   {
-    key: 5,
+    key: 6,
     image: require("../../assets/img/password-generator.webp"),
     title: "Password Generator",
     alt: "Password Generator",
@@ -89,7 +89,7 @@ const ProjectObjects = [
     info: "Password Generator that features the toggleable use of lowercase, uppercase, numbers, and symbols to create a scalable password up to 20 characters long.",
   },
   {
-    key: 6,
+    key: 7,
     image: require("../../assets/img/movieapp.webp"),
     title: "Movie Search",
     alt: "Movie Search",
@@ -100,7 +100,7 @@ const ProjectObjects = [
     info: "Uses external api to generate a list of the current top movies along with their descriptions. Also includes a search feature.",
   },
   {
-    key: 7,
+    key: 8,
     image: require("../../assets/img/photography-website.webp"),
     title: "Creative Website",
     alt: "Creative Website",

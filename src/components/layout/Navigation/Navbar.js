@@ -99,7 +99,7 @@ const Navbar = ({ toggle }) => {
             </NavItem>
             <NavItem>
               <a
-                class="navLink"
+                className="navLink"
                 rel="noopener noreferrer"
                 target="_blank"
                 href="https://creators-blog.netlify.app/"

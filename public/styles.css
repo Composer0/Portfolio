@@ -620,11 +620,8 @@ textarea {
   display: inline-block;
 }
 
-.pro:nth-child(1) {
-  padding-right: 6px;
-}
-
 .first-work-text {
+  margin-right: 6px;
   text-align: right;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
