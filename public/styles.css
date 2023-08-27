@@ -594,6 +594,10 @@ textarea {
   flex-direction: column;
 }
 
+.nameInfo h2 {
+  line-height: 1em;
+}
+
 .profile-img {
   border-style: solid;
   border-color: #66bfbf;
