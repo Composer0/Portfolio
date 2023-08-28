@@ -7,7 +7,7 @@ const ProjectObjects = [
     sLink: "https://csharpstarterapps-production.up.railway.app/",
     gLink: "https://github.com/Composer0/CSharp.NetAndMVC",
     yLink: "https://www.youtube.com/@composer0623/videos",
-    tech: [2, 7, 14, 15, 10, 19],
+    tech: [2, 7, 14, 15, 10, 31],
     info: "Used the MVC design model and applied it to my writing in C#. These projects primarily operate using 'For' loops to filter through the data to check and modify the values. Within this applciation is Palindrome Checker, FizzBuzz Finder, and my Loan Calculator.",
   },
   {
