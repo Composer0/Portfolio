@@ -1,17 +1,6 @@
 const ProjectObjects = [
   {
     key: 1,
-    image: require("../../assets/img/WebP-Generator.webp"),
-    title: "WebP Generator",
-    alt: "WebP Generator",
-    sLink: "https://webp-generator.netlify.app/",
-    gLink: "https://github.com/Composer0/Webp-Generator",
-    yLink: "https://youtu.be/sNd8acAdBEk",
-    tech: [1, 11, 14, 21],
-    info: "This is a web application that allows users to upload images, convert them to WebP format, and download the converted images. WebP is a modern image format that provides better compression and smaller file sizes compared to traditional image formats like JPEG and PNG. The application uses HTML, CSS, and JavaScript to handle image conversion and downloads. It leverages the regenerator-runtime library as a polyfill to provide support for async/await in environments where native support for generators is not available, ensuring broader compatibility for the application.",
-  },
-  {
-    key: 2,
     image: require("../../assets/img/SixDegrees.png"),
     title: "Six Degrees",
     alt: "Six Degrees",
@@ -20,6 +9,17 @@ const ProjectObjects = [
     yLink: "https://www.youtube.com/watch?v=RWvUNi9Q8bE",
     tech: [2, 7, 10, 18, 31],
     info: "Contact Management Application that was built following the Model-View-Controller design method for software development. It allows user to register and login. Accounts are secured within the PostgreSQL database with hash mapped passwords and users have the option of setting up 2-factor authentication. Allows users to create, read, update, and delete contacts, categories, and personal accounts. Users can filter and sort contacts based on name and categories. Additionally, users can email contacts individually or in category groups.",
+  },
+  {
+    key: 2,
+    image: require("../../assets/img/WebP-Generator.webp"),
+    title: "WebP Generator",
+    alt: "WebP Generator",
+    sLink: "https://webp-generator.netlify.app/",
+    gLink: "https://github.com/Composer0/Webp-Generator",
+    yLink: "https://youtu.be/sNd8acAdBEk",
+    tech: [1, 11, 14, 21],
+    info: "This is a web application that allows users to upload images, convert them to WebP format, and download the converted images. WebP is a modern image format that provides better compression and smaller file sizes compared to traditional image formats like JPEG and PNG. The application uses HTML, CSS, and JavaScript to handle image conversion and downloads. It leverages the regenerator-runtime library as a polyfill to provide support for async/await in environments where native support for generators is not available, ensuring broader compatibility for the application.",
   },
   {
     key: 3,

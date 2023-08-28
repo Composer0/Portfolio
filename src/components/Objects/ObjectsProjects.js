@@ -1,17 +1,6 @@
 const ProjectObjects = [
   {
     key: 1,
-    image: require("../../assets/img/quiz-app-vue.webp"),
-    title: "FERPA Quiz",
-    alt: "FERPA Quiz",
-    sLink: "https://ferpa-quiz-vue.netlify.app/",
-    gLink: "https://github.com/Composer0/Vue-Questions-App",
-    yLink: "https://youtu.be/IDGlVxWtFTg",
-    tech: [4, 15],
-    info: "This application uses Vue's components and prop method to render a series of questions and a result based on the amount of correct answers selected.",
-  },
-  {
-    key: 2,
     image: require("../../assets/img/CSharpLoanCalculator.webp"),
     title: "C# Challenges",
     alt: "C# Challenges",
@@ -20,6 +9,17 @@ const ProjectObjects = [
     yLink: "https://www.youtube.com/@composer0623/videos",
     tech: [2, 7, 14, 15, 10, 19],
     info: "Used the MVC design model and applied it to my writing in C#. These projects primarily operate using 'For' loops to filter through the data to check and modify the values. Within this applciation is Palindrome Checker, FizzBuzz Finder, and my Loan Calculator.",
+  },
+  {
+    key: 2,
+    image: require("../../assets/img/quiz-app-vue.webp"),
+    title: "FERPA Quiz",
+    alt: "FERPA Quiz",
+    sLink: "https://ferpa-quiz-vue.netlify.app/",
+    gLink: "https://github.com/Composer0/Vue-Questions-App",
+    yLink: "https://youtu.be/IDGlVxWtFTg",
+    tech: [4, 15],
+    info: "This application uses Vue's components and prop method to render a series of questions and a result based on the amount of correct answers selected.",
   },
   {
     key: 3,
