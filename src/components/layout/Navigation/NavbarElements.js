@@ -97,6 +97,7 @@ export const NavResume = styled.li`
   color: #fff;
   font-size: 27px;
   border-radius: 1rem;
+  border: transparent;
   display: flex;
   align-items: center;
   text-decoration: none;
