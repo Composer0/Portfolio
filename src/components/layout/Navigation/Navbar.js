@@ -111,7 +111,7 @@ const Navbar = ({ toggle }) => {
           <NavItem>
             <a
               href={
-                "https://docs.google.com/document/d/1v1BRb90NHLOYgB2bC4-bfWX7dX7nKTmj/edit?usp=sharing&ouid=108099306262936657393&rtpof=true&sd=true"
+                "https://drive.google.com/file/d/1KENaChAitbCTfbzwhLZtelaHEIWmcd6N/view?usp=drive_link"
               }
               className="resume-setting"
               rel="noopener noreferrer"

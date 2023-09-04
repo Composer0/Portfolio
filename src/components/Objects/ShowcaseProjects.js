@@ -17,7 +17,7 @@ const ProjectObjects = [
     alt: "YES CHEF",
     sLink: "https://yes-chef.up.railway.app/",
     gLink: "https://github.com/Composer0/YES-CHEF",
-    yLink: "https://www.youtube.com/watch?v=zG6wQomYu9E",
+    yLink: "https://www.youtube.com/watch?v=Tbu9WKB-O5A",
     tech: [2, 7, 32, 1, 33, 14, 15, 10, 31, 35, 34],
     info: "Written in C# using Blazor Web Assembly, YES CHEF! leverages OpenAI's GPT-3.5 Turbo AI model, which was specifically chosen for its ability to facilitate efficient data transfer via JSON to OpenAI through Function Calling. Users specify mealtime and ingredients, initiating a conversation with the AI. The application seamlessly generates five personalized recipe ideas, complete with images, ingredients, instructions, and summaries. JavaScript was incorporated to allow users to print out their unique recipes with the click of a button. The application was deployed on Railway and used Docker to ensure that .NET7 compatibility could be achieved.",
   },
@@ -40,7 +40,7 @@ const ProjectObjects = [
     sLink: "https://creators-blog.netlify.app/",
     gLink: "https://github.com/Composer0/BlogFullstack",
     yLink: "https://www.youtube.com/watch?v=RB1Lh7rKlfg",
-    tech: [5, 16, 13, 17, 15, 20, 22, 31],
+    tech: [5, 1, 16, 13, 17, 15, 20, 22, 31],
     info: "Blog application that allows users to register and login to a profile, filter through categories, upload pictures with multer package for blog posts and user profiles, and read, create, update, and delete blog posts and user profile. Data is stored inside of a Mongo database on Railway and features bcrypt security to create hash maps for passwords. The site uses React Context API and incorporates local storage to manage user information for the purpose of updating/deleting user information and providing permissions to create, edit, and delete posts.",
   },
   // {
